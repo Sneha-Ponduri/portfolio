@@ -1,0 +1,61 @@
+.experience {
+  background-color: #001d3d;
+  color: white;
+  padding: 80px 60px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.experience h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #00b4d8;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.experience-card {
+  background-color: #003566;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  text-align: left;
+}
+
+.experience-card h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
+  color: #00b4d8;
+}
+
+.experience-card h4 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #cbd5e1;
+}
+
+.experience-card .place {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #90e0ef;
+}
+
+.experience-card .year {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #ffd60a;
+  font-weight: 500;
+}
+
+.experience-card .desc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
